@@ -38,15 +38,6 @@
 ```bash  
 sudo apt update
 sudo apt install tesseract-ocr libgl1-mesa-glx
+<img width="1896" height="2095" alt="deepseek_mermaid_20250712_e6c935" src="https://github.com/user-attachments/assets/13a081ed-5349-4d27-995b-21c833fe74be" />
 
 
-graph TD
-    A[Webcam] --> B(OpenCV Video Feed)
-    B --> C{Mode Selection}
-    C --> D[Face Recognition]
-    C --> E[Text Reading]
-    C --> F[Object Detection]
-    D --> G[Audio Output]
-    E --> G
-    F --> G
-    G --> H[User Feedback]
