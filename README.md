@@ -38,3 +38,15 @@
 ```bash  
 sudo apt update
 sudo apt install tesseract-ocr libgl1-mesa-glx
+
+
+graph TD
+    A[Webcam] --> B(OpenCV Video Feed)
+    B --> C{Mode Selection}
+    C --> D[Face Recognition]
+    C --> E[Text Reading]
+    C --> F[Object Detection]
+    D --> G[Audio Output]
+    E --> G
+    F --> G
+    G --> H[User Feedback]
